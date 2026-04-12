@@ -150,28 +150,19 @@ padding:40px 20px;
 text-align:center;
 }
 
-.showroom-wrapper{
+.info-imagenes{
 display:flex;
-align-items:center;
 justify-content:center;
-gap:15px;
+gap:20px;
+padding:40px 20px;
+flex-wrap:wrap;
 }
 
-.showroom-lateral{
-width:180px;
+.info-imagenes img{
+width:70%;
+max-width:300px;
 border-radius:15px;
 object-fit:cover;
-flex-shrink:0;
-}
-
-@media(max-width:768px){
-.showroom-wrapper{
-flex-direction:column;
-}
-.showroom-lateral{
-width:90%;
-max-width:400px;
-}
 }
 
 .titulo-showroom{
