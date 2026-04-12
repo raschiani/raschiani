@@ -253,7 +253,7 @@ const Lattafa = [
 
 {nombre:"His Confession",precio:78000,notas:"Amaderado,Especiado,Aromático,Ámbar,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523560/His_ygtnvo.webp"},
 
-{nombre:"The Kingdom",precio:60000,notas:"Amaderado,Ámbar,Especiado,Aromático,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxext/image/upload/v1775523559/kingdom_jw1q04.webp"},
+{nombre:"The Kingdom",precio:60000,notas:"Amaderado,Ámbar,Especiado,Aromático,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523559/kingdom_jw1q04.webp"},
 
 {nombre:"Mayar Cherry Intense",precio:64000,notas:"Cereza,Dulce,Avainillado,Afrutado,Ambarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523569/cherry_wi2uop.webp"},
 
