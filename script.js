@@ -69,15 +69,17 @@ const armaf = [
 
 {nombre:"Club Nuit Maleka",precio:81000,notas:"Dulce,Floral,Afrutado,Atalcado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435114/maleka_aoucve.webp"},
 
-{nombre:"Terra",precio:89000,notas:"Amaderado,Cítrico,Terroso,Aromático,Musgoso", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435081/terra_nwlqz0.webp"},
+{nombre:"Beach Party",precio:92000,notas:"Tropical,Dulce,Coco,Afrutado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435078/beach_qghkab.webp"},
+]
 
-{nombre:"Pacific Aura",precio:80000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435098/pacific_jiqmqb.webp"},
-
+const rayhaan = [
 {nombre:"Italia",precio:92000,notas:"Cítrico,Aromático,Floral,Verde,Fresco", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435118/italia_khltzl.webp"},
+
+{nombre:"Terra",precio:89000,notas:"Amaderado,Cítrico,Terroso,Aromático,Musgoso", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435081/terra_nwlqz0.webp"},
 
 {nombre:"Acuatica",precio:92000,notas:"Marino,Fresco,Cítrico,Verde,Ozónico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435122/acuatica_bism0p.webp"},
 
-{nombre:"Beach Party",precio:92000,notas:"Tropical,Dulce,Coco,Afrutado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435078/beach_qghkab.webp"},
+{nombre:"Pacific Aura",precio:80000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435098/pacific_jiqmqb.webp"},
 
 ]
 
@@ -142,7 +144,7 @@ const maison = [
 
 {nombre:"Leonie Intense",precio:55000,notas:"Dulce,Avainillado,Floral,Atalcado,Ambarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515007/leonie_dwzkoe.webp"},
 
-{nombre:"Glacier Bold",precio:55000,notas:"Cítrico,Aromático,Fresco,Amaderado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515010/bold_htyknd.webp"},
+//{nombre:"Glacier Bold",precio:55000,notas:"Cítrico,Aromático,Fresco,Amaderado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515010/bold_htyknd.webp"},
 
 {nombre:"Toscano Leather",precio:55000,notas:"Cuero,Ahumado,Amaderado,Animalico,Ámbar", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515000/toscano_rgdv7f.webp"},
 
@@ -354,6 +356,7 @@ crearCatalogo(armaf,"armaf")
 crearCatalogo(afnan,"afnan")
 crearCatalogo(asrar,"asrar")
 crearCatalogo(rasasi,"rasasi")
+crearCatalogo(rayhaan,"rayhaan")
 crearCatalogo(Lattafa,"lattafa")
 
 // ================== AGREGAR AL CARRITO ==================
@@ -768,7 +771,7 @@ try{
 const res = await fetch("https://opensheet.elk.sh/1b64tYrrXdsgR0wwhpVIR9w4jBbLuHD1PUOXe4LcT6OY/precio")
 const data = await res.json()
 
-const listas = [masvendidos, rasasi, asrar, bharara, armaf, afnan, Paris, maison, frenchavenue, Lattafa]
+const listas = [masvendidos, rasasi, asrar, bharara, armaf, afnan, Paris, maison, frenchavenue, Lattafa, rayhaan]
 
 listas.forEach(lista=>{
 lista.forEach(producto=>{
@@ -794,6 +797,7 @@ crearCatalogo(armaf,"armaf")
 crearCatalogo(afnan,"afnan")
 crearCatalogo(asrar,"asrar")
 crearCatalogo(rasasi,"rasasi")
+crearCatalogo(rayhaan,"rayhaan")
 crearCatalogo(Lattafa,"lattafa")
 
 }catch(error){
