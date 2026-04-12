@@ -105,6 +105,8 @@ const Paris = [
 
 {nombre:"Fayora",precio:89000,notas:"Dulce,Afrutado,Floral,Avainillado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437019/fayora_jmvzbz.webp"},
 
+{nombre:"Fayora Oschino",precio:89000,notas:"Dulce,Afrutado,Floral,Avainillado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776027100/oschino_vr55ml.jpg"},
+
 {nombre:"Khair Confection",precio:73000,notas:"Dulce,Avainillado,Atalcado,Amaderado,Afrutados,Acuático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437029/khair_ppqsvi.webp"},
 
 {nombre:"Qissa Delicius",precio:55000,notas:"Dulce,Avainillado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437043/qissa_l4xubf.webp"},
