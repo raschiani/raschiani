@@ -190,7 +190,7 @@ const frenchavenue = [
 
 {nombre:"Azzure Oud",precio:75000,notas:"Oud,Amaderado,Ambarado,Especiado,Balsámico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517848/azzure_nowbhd.webp"},
 
-{nombre:"Veneno",precio:103000,notas:"Dulce,Ambarado,Avainillado,Especiado,Licor", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517850/veneno_vnyxda.webp"},
+{nombre:"Veneno",precio:103000,notas:"Dulce,Ambarado,Avainillado,Especiado,Licor", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776021649/veneno_rwoiat.jpg"},
 
 {nombre:"Grecia",precio:103000,notas:"Floral,Dulce,Afrutado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517856/grecia_ik6asc.webp"},
 

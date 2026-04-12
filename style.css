@@ -524,8 +524,9 @@ font-weight:bold;
 }
 #mensajeCarrito{
 margin-top:10px;
-font-size:14px;
+font-size:17px;
 color:#b98a4a;
+line-height:1.8;
 }
 
 #formaPago{
