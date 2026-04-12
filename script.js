@@ -604,18 +604,26 @@ mensaje+=`\nForma de pago: Tarjeta (3 cuotas sin interés)`
 mensaje+=`\nForma de pago: Efectivo / Transferencia (25% OFF)`
 }
 
-// 🔥 NUEVA LÓGICA COMPATIBLE CON IPHONE
-if(navigator.clipboard && window.isSecureContext){
-    navigator.clipboard.writeText(mensaje).then(()=>{
-        alert("Pedido copiado ✅ Ahora te llevo a Instagram")
-        window.open(`https://ig.me/m/raschiani_perfumeria`)
-    }).catch(()=>{
+// Mostrar modal de confirmacion antes de enviar
+document.getElementById("modalConfirmacion").classList.add("activo")
+document.getElementById("btnConfirmarPedido").onclick = function(){
+    cerrarConfirmacion()
+    // 🔥 NUEVA LÓGICA COMPATIBLE CON IPHONE
+    if(navigator.clipboard && window.isSecureContext){
+        navigator.clipboard.writeText(mensaje).then(()=>{
+            window.open(`https://ig.me/m/raschiani_perfumeria`)
+        }).catch(()=>{
+            mostrarMensajeManual(mensaje)
+        })
+    }else{
         mostrarMensajeManual(mensaje)
-    })
-}else{
-    mostrarMensajeManual(mensaje)
+    }
 }
 
+}
+
+function cerrarConfirmacion(){
+    document.getElementById("modalConfirmacion").classList.remove("activo")
 }
 
 // 🔥 FUNCIÓN EXTRA (NO ROMPE NADA)

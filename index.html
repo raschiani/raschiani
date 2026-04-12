@@ -84,9 +84,6 @@
     <option value="tarjeta">💳 Tarjeta (3 cuotas sin interés)</option>
     <option value="efectivo">💵 Efectivo / Transferencia (25% OFF)</option>
 </select>
-<p class="importante">IMPORTANTE</p>
-<p id="mensajeCarrito">Al dar click en enviar pedido te enviara a un chat de instagram solo dale a pegar y su pedido estara listo <p>
-
 <div class="botones-carrito">
     <button onclick="enviarPedido()">Finalizar</button>
     <button onclick="vaciarCarrito()">Vaciar</button>
@@ -148,6 +145,18 @@ transparencia y una experiencia de compra premium.
 </div>
 
 </footer>
+
+<!-- MODAL CONFIRMACION -->
+<div id="modalConfirmacion" class="modal">
+    <div class="contenido">
+        <h2 class="importante">⚠️ IMPORTANTE</h2>
+        <p id="mensajeCarrito">Al hacer click en confirmar vamos a copiar tu pedido y te llevamos directo a Instagram. Solo pegá el mensaje y tu pedido estará listo.</p>
+        <div class="botones-carrito" style="margin-top:20px;">
+            <button id="btnConfirmarPedido">Confirmar</button>
+            <button onclick="cerrarConfirmacion()">Cancelar</button>
+        </div>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>
