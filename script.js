@@ -13,7 +13,7 @@ const masvendidos = [
 const rasasi = [ 
 {nombre:"Hawas Fire",precio:90000,notas:"Ámbar,Aromático,Mineral,Marino,Especiado suave,Floral blanco,Animálico,Salado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433882/fire_jxhdvp.webp"},
 
-{nombre:"Hawas Ice",precio:92000,notas:"Afrutados,Cítrico,Dulce,Fresco,Aromático,Almizclado,Atalcado,Fresco especiado,Verde,Floral blanco", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433921/ice_f0jcf9.webp"},
+{nombre:"Hawas Ice",precio:92000,notas:"Afrutados,Cítrico,Dulce,Fresco,Aromático,Almizclado,Atalcado,Fresco especiado,Verde,Floral blanco", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122441/ice2_bed9jd.jpg"},
 
 {nombre:"Hawas Malibu",precio:105000,notas:"Cítrico,Afrutado,Tropical,Dulce,Ambarado,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433917/malibu_bpjtb6.webp"},
 
@@ -22,6 +22,12 @@ const rasasi = [
 {nombre:"Hawas Black",precio:74000,notas:"Amaderado,Cítrico,Musgoso,Terroso,Fresco especiado,Afrutado,Dulce,Pachulí,Aromático,Tropical", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433911/black_gudi6v.webp"},
 
 {nombre:"Hawas Tropical",precio:105000,notas:"Dulce,Verde,Coco,Amaderado,Avainillado,Afrutados", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433914/tropical_b6a2oa.webp"},
+
+{nombre:"Hawas Dive",precio:105000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122445/diva_t2q0yw.jpg"},
+
+{nombre:"Hawas London",precio:105000,notas:"Amaderado,Cítrico,Aromático,Ámbar,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122440/london_gk2as0.jpg"},
+
+{nombre:"Hawas For Him",precio:105000,notas:"Afrutado,Dulce,Cítrico,Canela,Ambarado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122443/him_r1nif1.jpg"},
 
 ]
 
@@ -51,13 +57,21 @@ const bharara = [
 const armaf = [
 {nombre:"Oddysey Homme",precio:72000,notas:"Ámbar,Cálido especiado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435107/oddyseyhomme_tl6lyi.webp"},
 
+{nombre:"Oddysey Homme White",precio:72000,notas:"Avainillado,Dulce,Ámbar,Aromático,Cálido especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776119738/home_tkns35.jpg"},
+
 {nombre:"Oddysey Aqua",precio:79000,notas:"Marino,Fresco,Cítrico,Aromático,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435101/oddyseyaqua_apglrm.webp"},
 
 {nombre:"Oddysey Bhaamas",precio:82000,notas:"Dulce,Tropical,Avainillado,Afrutado,Ambarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435110/oddyseybhaamas_cem5sv.webp"},
 
 {nombre:"Oddysey Spectra",precio:82000,notas:"Dulce,Especiado,Amaderado,Avainillado,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435087/spectra_n84hrc.webp"},
 
+{nombre:"Oddysey Mega",precio:82000,notas:"Cítrico,Aromático,Verde,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121416/mega_ib1qbt.jpg"},
+
+{nombre:"Oddysey Limoni",precio:82000,notas:"Cítrico,Fresco,Aromático,Dulce,Verde", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121418/limoni_t8dcr3.jpg "},
+
 {nombre:"Oddysey Mandarin",precio:82000,notas:"Cítrico,Dulce,Afrutado,Aromático,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435091/sky_h5o15a.webp"},
+
+{nombre:"Oddysey Mandarin Elixir",precio:82000,notas:"Cítrico,Dulce,Afrutado,Avainillado,Ambarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776120771/elixir_jtjpqf.jpg"},
 
 {nombre:"Club Nuit Intense Man",precio:70000,notas:"Ámbar,Cítrico,Afrutado,Dulce,Animálico,Tropical", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435444/intenseman_1_zpypnk.webp"},
 
@@ -67,7 +81,17 @@ const armaf = [
 
 {nombre:"Club Nuit Iconic",precio:86000,notas:"Cítrico,Amaderado,Aromático,Fresco especiado,Ámbar,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435126/iconic_sixywj.webp"},
 
+{nombre:"Club Nuit Imperiale",precio:86000,notas:"Floral,Dulce,Avainillado,Atalcado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121423/imperiale_ymbs08.jpg"},
+
+{nombre:"Club Nuit Precieux",precio:86000,notas:"Afrutado,Dulce,Amaderado,Ámbar,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121415/precieux_kszyki.jpg"},
+
+{nombre:"Club Nuit Bling",precio:86000,notas:"Dulce,Floral,Afrutado,Atalcado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121419/bling_igh3s6.jpg"},
+
 {nombre:"Club Nuit Maleka",precio:81000,notas:"Dulce,Floral,Afrutado,Atalcado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435114/maleka_aoucve.webp"},
+
+{nombre:"Club Nuit Untold",precio:81000,notas:"Ámbar,Dulce,Almizclado,Atalcado,Amaderado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121132/untold_wnxz5c.jpg"},
+
+{nombre:"Yum Yum",precio:81000,notas:"Dulce,Afrutado,Gourmand,Avainillado,Cremoso", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776121422/yum_eylgjz.jpg"},
 
 {nombre:"Beach Party",precio:92000,notas:"Tropical,Dulce,Coco,Afrutado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435078/beach_qghkab.webp"},
 ]
@@ -77,7 +101,7 @@ const rayhaan = [
 
 {nombre:"Terra",precio:89000,notas:"Amaderado,Cítrico,Terroso,Aromático,Musgoso", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435081/terra_nwlqz0.webp"},
 
-{nombre:"Acuatica",precio:92000,notas:"Marino,Fresco,Cítrico,Verde,Ozónico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435122/acuatica_bism0p.webp"},
+{nombre:"Aquatica",precio:92000,notas:"Marino,Fresco,Cítrico,Verde,Ozónico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435122/acuatica_bism0p.webp"},
 
 {nombre:"Pacific Aura",precio:80000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435098/pacific_jiqmqb.webp"},
 
@@ -98,6 +122,8 @@ const afnan = [
 
 {nombre:"Turathi Electric",precio:84000,notas:"Afrutado,Dulce,Ambarado,Almizclado,Fresco,Cítrico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435724/electric_uxblcy.webp"},
 
+{nombre:"Souvenir Floral Bouquet",precio:84000,notas:"Floral,Dulce,Afrutado,Atalcado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122096/bouquet_a49nyj.jpg"},
+
 ]
 
 const Paris = [
@@ -117,18 +143,20 @@ const Paris = [
 
 {nombre:"Banana Bliss",precio:80000,notas:"Dulce,Afrutado,Tropical,Avainillado,Cremoso", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437006/banana_vn9qxs.webp"},
 
-{nombre:"Wayfarer",precio:80000,notas:"Amaderado,Aromático,Cítrico,Especiado,Ámbar", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775436999/wayfarer_n1nmie.webp"},
-
 {nombre:"Dulzura",precio:80000,notas:"Dulce,Avainillado,Cremoso,Almizclado,Ambarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437015/dulzura_edoecr.webp"},
 
 {nombre:"Khair Felicity",precio:80000,notas:"Dulce,Floral,Avainillado,Afrutado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437024/felicity_h594hf.webp"},
 
 {nombre:"Marshmallow Blush",precio:80000,notas:"Dulce,Afrutado,Almizclado,Cítrico,Floral blanco", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775437010/blush_rk55ql.webp"},
 
+{nombre:"Rifaqat",precio:80000,notas:"Amaderado,Especiado,Ámbar,Dulce,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776119428/Rifaqat_yyoqrn.jpg"},
+
 ]
 
 const maison = [
 {nombre:"Salvo Elixir",precio:50000,notas:"Ámbar,Amaderado,Fresco especiado,Avainillado,Cálido especiado,Dulce,Tabaco,Pachulí,Atalcado,Balsámico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515001/salvo_bm10ye.webp"},
+
+{nombre:"Salvo Intense",precio:50000,notas:"Ámbar,Amaderado,Fresco especiado,Avainillado,Cálido especiado,Dulce,Tabaco,Pachulí,Atalcado,Balsámico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776126162/salvointense_dorvki.jpg"},
 
 {nombre:"Galactic Men",precio:55000,notas:"Tabaco,Dulce,Ambarado,Avainillado,Gourmand,Amaderado,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515009/galacticmen_fnankx.webp"},
 
@@ -155,6 +183,10 @@ const maison = [
 {nombre:"Alora",precio:55000,notas:"Dulce,Floral,Afrutado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515011/alora_dqch5x.webp"},
 
 {nombre:"Jean Love Vibe",precio:55000,notas:"Dulce,Avainillado,Aromático,Ambarado,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515000/vibe_obhyso.webp"},
+
+{nombre:"Jean Love Inmortel",precio:55000,notas:"Amaderado,Aromático,Dulce,Ámbar,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776126162/inmortel_qg0bgx.jpg"},
+
+{nombre:"Jean Love Noir",precio:55000,notas:"Dulce,Avainillado,Ambarado,Especiado,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776126163/intense_slh5fi.jpg"},
 
 {nombre:"Your Touch",precio:55000,notas:"Aromático,Amaderado,Cítrico,Especiado,Ámbar", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515011/your_x6d3o4.webp"},
 
@@ -190,6 +222,8 @@ const frenchavenue = [
 
 {nombre:"Proud of You",precio:49000,notas:"Dulce,Avainillado,Aromático,Ambarado,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517853/proud_igplad.webp"},
 
+{nombre:"Proud of You Amber",precio:49000,notas:"Dulce,Avainillado,Ámbar,Aromático,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776120297/amber_tfpal0.jpg"},
+
 {nombre:"Meringue",precio:80000,notas:"Dulce,Avainillado,Cremoso,Atalcado,Azucarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517855/meringue_bfecc0.webp"},
 
 {nombre:"Azzure Oud",precio:75000,notas:"Oud,Amaderado,Ambarado,Especiado,Balsámico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517848/azzure_nowbhd.webp"},
@@ -209,6 +243,8 @@ const frenchavenue = [
 {nombre:"Safari Breeze",precio:103000,notas:"Cítrico,Fresco,Verde,Aromático,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775517846/breeze_hfmjg6.webp"},
 
 {nombre:"Coconut Leche",precio:103000,notas:"Coco,Dulce,Cremoso,Lactónico,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775516893/leche_k7oxco.jpg"},
+
+{nombre:"Wayfarer",precio:80000,notas:"Amaderado,Aromático,Cítrico,Especiado,Ámbar", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775436999/wayfarer_n1nmie.webp"},
 
 ]
 
@@ -292,6 +328,28 @@ const Lattafa = [
 {nombre:"Habik",precio:78000,notas:"Amaderado,Especiado,Ámbar,Dulce,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775522316/habik_ifldss.jpg"},
 
 {nombre:"Habik Fem",precio:78000,notas:"Floral,Dulce,Almizclado,Afrutado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775522315/fem_izvszo.jpg"},
+
+{nombre:"Musaman",precio:78000,notas:"Amaderado,Especiado,Oud,Ámbar,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776120429/musaman_ex3orc.jpg"},
+
+{nombre:"Yara Rosa ",precio:78000,notas:"Dulce,Afrutado,Floral,Atalcado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123274/rosa_vchzva.jpg"},
+
+{nombre:"Petra",precio:78000,notas:"Floral,Dulce,Afrutado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123277/petra_wvp5kz.jpg"},
+
+{nombre:"Mayar",precio:78000,notas:"Floral,Afrutado,Dulce,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123280/mayar_nmuin4.jpg"},
+
+{nombre:"Ansaam Silver",precio:78000,notas:"Aromático,Dulce,Avainillado,Ámbar,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123284/silver_safkte.jpg"},
+
+{nombre:"The Kingdom",precio:78000,notas:"Amaderado,Ámbar,Especiado,Aromático,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123286/king_b9wa3g.jpg"},
+
+{nombre:"Art Of Universe",precio:78000,notas:"Amaderado,Especiado,Ámbar,Dulce,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123291/universe_pk3kea.jpg"},
+
+{nombre:"Al Quiam Gold",precio:78000,notas:"Cuero,Amaderado,Ámbar,Especiado,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123292/gold_vfmc0s.jpg"},
+
+{nombre:"Shahem Gold",precio:78000,notas:"Afrutado,Dulce,Amaderado,Ámbar,Tropical", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123294/shahem_mygegl.jpg"},
+
+{nombre:"Teriaq Intense",precio:78000,notas:"Dulce,Ambarado,Avainillado,Especiado,Balsámico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123297/teriaq_irgjpa.jpg"},
+
+{nombre:"Vintage Radio",precio:78000,notas:"Amaderado,Avainillado,Dulce,Especiado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123273/radio_otucm9.jpg"},
 
 
 ]
