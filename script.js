@@ -23,7 +23,7 @@ const rasasi = [
 
 {nombre:"Hawas Tropical",precio:105000,notas:"Dulce,Verde,Coco,Amaderado,Avainillado,Afrutados", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433914/tropical_b6a2oa.webp"},
 
-{nombre:"Hawas Dive",precio:105000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122445/diva_t2q0yw.jpg"},
+{nombre:"Hawas Diva",precio:105000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122445/diva_t2q0yw.jpg"},
 
 {nombre:"Hawas London",precio:105000,notas:"Amaderado,Cítrico,Aromático,Ámbar,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122440/london_gk2as0.jpg"},
 
