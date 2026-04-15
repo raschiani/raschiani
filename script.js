@@ -297,7 +297,7 @@ const Lattafa = [
 
 {nombre:"Mayar Cherry Intense",precio:64000,notas:"Cereza,Dulce,Avainillado,Afrutado,Ambarado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523569/cherry_wi2uop.webp"},
 
-{nombre:"Musaman",precio:60000,notas:"Amaderado,Especiado,Ámbar,Dulce,Oud", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523555/musaman_q2tyrn.webp"},
+//{nombre:"Musaman",precio:60000,notas:"Amaderado,Especiado,Ámbar,Dulce,Oud", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523555/musaman_q2tyrn.webp"},
 
 {nombre:"Qaed Al Foursan Unlimited",precio:50000,notas:"Coco,Dulce,Tropical,Avainillado,Afrutado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775523565/foursan_yoxqut.webp"},
 
@@ -330,6 +330,8 @@ const Lattafa = [
 {nombre:"Habik Fem",precio:78000,notas:"Floral,Dulce,Almizclado,Afrutado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776215681/WhatsApp_Image_2026-04-14_at_22.11.57_voslez.jpg"},
 
 {nombre:"Musaman",precio:78000,notas:"Amaderado,Especiado,Oud,Ámbar,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776120429/musaman_ex3orc.jpg"},
+
+{nombre:"Musaman Black Intense",precio:78000,notas:"Amaderado,Especiado,Oud,Ámbar,Dulce", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776242206/WhatsApp_Image_2026-04-14_at_23.21.54_gqtlrz.jpg"},
 
 {nombre:"Yara Rosa ",precio:78000,notas:"Dulce,Afrutado,Floral,Atalcado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776123274/rosa_vchzva.jpg"},
 
