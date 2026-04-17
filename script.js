@@ -371,7 +371,7 @@ const Lattafa = [
 
 {nombre:"Fakhar Femenino",precio:78000,notas:"Floral blanco,Dulce,Cítrico,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386716/WhatsApp_Image_2026-04-16_at_21.20.02_uz7k4d.jpg"},
 
-{nombre:"Rimaah",precio:78000,notas:"Floral,Dulce,Ambarado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386717/WhatsApp_Image_2026-04-16_at_21.20.02_1_jwudlj.jpg"},
+{nombre:"Quimaah",precio:78000,notas:"Floral,Dulce,Ambarado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386717/WhatsApp_Image_2026-04-16_at_21.20.02_1_jwudlj.jpg"},
 
 {nombre:"Jasoor",precio:78000,notas:"Amaderado,Especiado,Ámbar,Dulce,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386716/WhatsApp_Image_2026-04-16_at_21.20.03_nmya1a.jpg"},
 
