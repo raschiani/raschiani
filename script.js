@@ -23,9 +23,9 @@ const rasasi = [
 
 {nombre:"Hawas Tropical",precio:105000,notas:"Dulce,Verde,Coco,Amaderado,Avainillado,Afrutados", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775433914/tropical_b6a2oa.webp"},
 
-{nombre:"Hawas Diva",precio:105000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776383377/WhatsApp_Image_2026-04-15_at_11.02.21_wtommx.jpg"},
+{nombre:"Hawas Diva",precio:105000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776604792/WhatsApp_Image_2026-04-17_at_16.39.27_2_c5dmez.jpg"},
 
-{nombre:"Hawas London",precio:105000,notas:"Amaderado,Cítrico,Aromático,Ámbar,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776383378/WhatsApp_Image_2026-04-15_at_11.02.28_sxyj6o.jpg"},
+{nombre:"Hawas London",precio:105000,notas:"Amaderado,Cítrico,Aromático,Ámbar,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776604792/WhatsApp_Image_2026-04-17_at_16.39.27_3_yap6tk.jpg"},
 
 {nombre:"Hawas For Him",precio:105000,notas:"Afrutado,Dulce,Cítrico,Canela,Ambarado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122443/him_r1nif1.jpg"},
 
@@ -124,7 +124,7 @@ const afnan = [
 
 {nombre:"Souvenir Floral Bouquet",precio:84000,notas:"Floral,Dulce,Afrutado,Atalcado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776206759/WhatsApp_Image_2026-04-14_at_19.23.57_wos4oc.jpg"},
 
-{nombre:"Rare Carbon",precio:84000,notas:"Cuero,Amaderado,Atalcado,Ozónico,Violeta,Animálico,Oud,Acuático,Rosa,Fresco especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776385355/WhatsApp_Image_2026-04-16_at_21.21.00_b13cjb.jpg"},
+{nombre:"Rare Carbon",precio:84000,notas:"Cuero,Amaderado,Atalcado,Ozónico,Violeta,Animálico,Oud,Acuático,Rosa,Fresco especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776604476/WhatsApp_Image_2026-04-17_at_16.39.27_aeopmk.jpg"},
 
 ]
 
@@ -202,7 +202,7 @@ const maison = [
 
 {nombre:"Your Touch Intense",precio:55000,notas:"Ambarado,Dulce,Especiado,Amaderado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775515008/intense_eymn7y.webp"},
 
-{nombre:"Smoked Oud Vainilla",precio:55000,notas:"Dulce,Gourmand,Amaderado,Oriental,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776385427/WhatsApp_Image_2026-04-16_at_21.20.53_rk3nng.jpg"},
+{nombre:"Smoked Oud Vainilla",precio:55000,notas:"Dulce,Gourmand,Amaderado,Oriental,Especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776604701/WhatsApp_Image_2026-04-17_at_16.39.27_1_mryvjq.jpg"},
 
 {nombre:"Anthena",precio:55000,notas:"Floral,Dulce,Atalcado,Almizclado,Avainillado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776387620/WhatsApp_Image_2026-04-16_at_21.20.03_1_tvacnh.jpg"},
 ]
@@ -371,10 +371,19 @@ const Lattafa = [
 
 {nombre:"Fakhar Femenino",precio:78000,notas:"Floral blanco,Dulce,Cítrico,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386716/WhatsApp_Image_2026-04-16_at_21.20.02_uz7k4d.jpg"},
 
-{nombre:"Quimaah",precio:78000,notas:"Floral,Dulce,Ambarado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386717/WhatsApp_Image_2026-04-16_at_21.20.02_1_jwudlj.jpg"},
+{nombre:"Rimaah",precio:78000,notas:"Floral,Dulce,Ambarado,Almizclado,Atalcado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386717/WhatsApp_Image_2026-04-16_at_21.20.02_1_jwudlj.jpg"},
 
 {nombre:"Jasoor",precio:78000,notas:"Amaderado,Especiado,Ámbar,Dulce,Aromático", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776386716/WhatsApp_Image_2026-04-16_at_21.20.03_nmya1a.jpg"},
 
+
+]
+
+const milano = [
+{nombre:"Game Of Spades King",precio:78000,notas:"Afrutado,Dulce,Ambarado,Amaderado,Almizclado,Tropical", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776605518/WhatsApp_Image_2026-04-18_at_18.18.24_wqptgm.jpg"},
+
+{nombre:"Game Of Spades Full House",precio:78000,notas:"Dulce,Avainillado,Ambarado,Especiado,Aromático,Gourmand", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776605516/WhatsApp_Image_2026-04-18_at_18.18.24_1_wunlas.jpg"},
+
+{nombre:"Game Of Spades Wildcard",precio:78000,notas:"Cítrico,Aromático,Amaderado,Fresco especiado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776605517/WhatsApp_Image_2026-04-18_at_18.18.25_mobr5d.jpg"},
 
 ]
 
@@ -442,6 +451,7 @@ crearCatalogo(asrar,"asrar")
 crearCatalogo(rasasi,"rasasi")
 crearCatalogo(rayhaan,"rayhaan")
 crearCatalogo(Lattafa,"lattafa")
+crearCatalogo(milano,"milano")
 
 // ================== AGREGAR AL CARRITO ==================
 
@@ -855,7 +865,7 @@ try{
 const res = await fetch("https://opensheet.elk.sh/1b64tYrrXdsgR0wwhpVIR9w4jBbLuHD1PUOXe4LcT6OY/precio")
 const data = await res.json()
 
-const listas = [masvendidos, rasasi, asrar, bharara, armaf, afnan, Paris, maison, frenchavenue, Lattafa, rayhaan]
+const listas = [masvendidos, rasasi, asrar, bharara, armaf, afnan, Paris, maison, frenchavenue, Lattafa, rayhaan, milano]
 
 listas.forEach(lista=>{
 lista.forEach(producto=>{
@@ -883,6 +893,7 @@ crearCatalogo(asrar,"asrar")
 crearCatalogo(rasasi,"rasasi")
 crearCatalogo(rayhaan,"rayhaan")
 crearCatalogo(Lattafa,"lattafa")
+crearCatalogo(milano,"milano")
 
 }catch(error){
 console.log("Error cargando precios:", error)

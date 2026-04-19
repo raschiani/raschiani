@@ -73,13 +73,14 @@ border-bottom:1px solid #4a3624;
 .navbar a{
 color:#d2a563;
 text-decoration:none;
-margin:0 10px;
-font-size:14px;
-letter-spacing:1px;
+margin:0 4px;
+font-size:11px;
+letter-spacing:0.5px;
 text-transform:uppercase;
-padding:8px 12px;
+padding:6px 7px;
 border-radius:8px;
 transition:0.3s;
+white-space:nowrap;
 }
 
 .navbar a:hover{
