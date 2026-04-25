@@ -29,6 +29,8 @@ const rasasi = [
 
 {nombre:"Hawas For Him",precio:105000,notas:"Afrutado,Dulce,Cítrico,Canela,Ambarado,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1776122443/him_r1nif1.jpg"},
 
+{nombre:"Hawas Verde",precio:105000,notas:"Verde,Cítrico,Aromático,Fresco,Almizclado,Amaderado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1777120133/WhatsApp_Image_2026-04-24_at_16.01.32_z8p27z.jpg"},
+
 ]
 
 const asrar = [ 
@@ -104,6 +106,13 @@ const rayhaan = [
 {nombre:"Aquatica",precio:92000,notas:"Marino,Fresco,Cítrico,Verde,Ozónico", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435122/acuatica_bism0p.webp"},
 
 {nombre:"Pacific Aura",precio:80000,notas:"Marino,Cítrico,Aromático,Fresco,Almizclado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1775435098/pacific_jiqmqb.webp"},
+
+]
+
+const dumont = [
+{nombre:"Nitro Red",precio:80000,notas:"Afrutado,Acuático,Amaderado,Ámbar,Aromático,Cítrico,Fresco especiado", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1777119994/WhatsApp_Image_2026-04-24_at_14.15.52_esk00h.jpg"},
+
+{nombre:"Nitro White",precio:80000,notas:"Cítrico,Fresco,Aromático,Almizclado,Verde,Limpio", imagen:"https://res.cloudinary.com/dcwhfsxex/image/upload/v1777119993/WhatsApp_Image_2026-04-24_at_14.17.32_d7i4nn.jpg"},
 
 ]
 
@@ -452,6 +461,7 @@ crearCatalogo(rasasi,"rasasi")
 crearCatalogo(rayhaan,"rayhaan")
 crearCatalogo(Lattafa,"lattafa")
 crearCatalogo(milano,"milano")
+crearCatalogo(dumont,"dumont")
 
 // ================== AGREGAR AL CARRITO ==================
 
@@ -664,6 +674,23 @@ const navbar = document.querySelector(".navbar")
 navbar.classList.toggle("activo")
 }
 
+// ================== DROPDOWN MARCAS ==================
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navMarcas = document.querySelector(".nav-marcas")
+  const btn = document.querySelector(".marcas-btn")
+  if (!btn) return
+
+  btn.addEventListener("click", (e) => {
+    e.stopPropagation()
+    navMarcas.classList.toggle("abierto")
+  })
+
+  document.addEventListener("click", () => {
+    navMarcas.classList.remove("abierto")
+  })
+})
+
 // ================== VACIAR ==================
 
 function vaciarCarrito(){
@@ -865,7 +892,7 @@ try{
 const res = await fetch("https://opensheet.elk.sh/1b64tYrrXdsgR0wwhpVIR9w4jBbLuHD1PUOXe4LcT6OY/precio")
 const data = await res.json()
 
-const listas = [masvendidos, rasasi, asrar, bharara, armaf, afnan, Paris, maison, frenchavenue, Lattafa, rayhaan, milano]
+const listas = [masvendidos, rasasi, asrar, bharara, armaf, afnan, Paris, maison, frenchavenue, Lattafa, rayhaan, milano, dumont]
 
 listas.forEach(lista=>{
 lista.forEach(producto=>{
@@ -894,6 +921,7 @@ crearCatalogo(rasasi,"rasasi")
 crearCatalogo(rayhaan,"rayhaan")
 crearCatalogo(Lattafa,"lattafa")
 crearCatalogo(milano,"milano")
+crearCatalogo(dumont,"dumont")
 
 }catch(error){
 console.log("Error cargando precios:", error)
